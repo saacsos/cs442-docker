@@ -1,4 +1,4 @@
-# Running a single Docker Container
+# Running a Single Docker Container
 
 `docker run -it ubuntu /bin/bash`
 
@@ -11,6 +11,12 @@
 * `-a` : all
 
 `docker start <container-id>`
+
+`docker start <container-name>`
+
+`docker stop <container-id>`
+
+`docker stop <container-name>`
 
 `docker run -it -d --rm --name linux1 ubuntu /bin/bash`
 
