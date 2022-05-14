@@ -1,0 +1,11 @@
+services:
+  app1:
+    image: httpd:latest
+    container_name: app1
+    ports:
+      - 8080:80
+    networks:
+      - app1_net
+
+networks:
+  app1_net:
