@@ -1,0 +1,7 @@
+services:
+  phpapp:
+    image: php:8.1-rc-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - "./src:/var/www/html"
