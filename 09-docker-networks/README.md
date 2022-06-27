@@ -12,4 +12,4 @@
 
 `docker-compose up`
 
-- access [http://localhost:8080](http://localhost:8080) and [http://localhost:8080](http://localhost:8080/app2)
+- access [http://localhost:8080](http://localhost:8080) and [http://localhost:8080/app2](http://localhost:8080/app2)

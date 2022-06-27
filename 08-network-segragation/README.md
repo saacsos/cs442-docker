@@ -15,6 +15,8 @@
 
 `docker network create simple-network`
 
+`docker run --rm --network simple-network --name my-webserver -d httpd`
+
 `docker run --rm --network simple-network <username>/mycurl my-webserver`
 
 `docker network rm simple-network`
