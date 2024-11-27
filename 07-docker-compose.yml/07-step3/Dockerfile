@@ -1,4 +1,4 @@
-FROM php:8.1-rc-apache
+FROM php:8.3.14-apache
 
 RUN apt-get -y update \
 && apt-get install -y libicu-dev \

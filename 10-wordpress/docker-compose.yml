@@ -1,6 +1,6 @@
 services:
   db:
-    image: mysql:5.7
+    image: mysql
     volumes:
       - db_data:/var/lib/mysql
     restart: always

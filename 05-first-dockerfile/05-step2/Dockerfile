@@ -1,4 +1,4 @@
-FROM php:8.1.5-cli
+FROM php:8.3.14-cli
 
 EXPOSE 8000
 RUN mkdir /myproject

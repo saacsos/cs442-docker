@@ -10,7 +10,7 @@ services:
       - "./src:/var/www/html"
     container_name: myphpapp-app
   db:
-    image: mysql:5.7
+    image: mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw

@@ -1,6 +1,6 @@
 services:
   phpapp:
-    image: php:8.1-rc-apache
+    image: php:8.3.14-apache
     ports:
       - "8080:80"
     volumes:
